@@ -1,4 +1,8 @@
 <?php
+if (!defined ("craftofmine")) {
+    echo '<center><h3>Error <b>401</b> Access denied.</h3></center>';
+}
+
 ?>
 <form id="payment" name="payment" method="post" action="https://sci.interkassa.com/" enctype="utf-8">
 	<input type="hidden" name="ik_co_id" value="5925776a3d1eaf72128b4568">
